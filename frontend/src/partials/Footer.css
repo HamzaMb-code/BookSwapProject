@@ -1,0 +1,239 @@
+.footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 40px 0 0 0;
+  margin-top: 60px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  padding: 0 20px;
+}
+
+.footer-section {
+  padding: 0 20px;
+}
+
+.footer-section h3 {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  color: #add8e6;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.footer-section h3::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40px;
+  height: 2px;
+  background-color: #add8e6;
+}
+
+.footer-section.about p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #b3b3b3;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.social-link {
+  color: #b3b3b3;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.social-link:hover {
+  color: #add8e6;
+  background-color: rgba(173, 216, 230, 0.1);
+  transform: translateY(-3px);
+  text-decoration: none;
+}
+
+.footer-section.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section.links ul li {
+  margin-bottom: 12px;
+  position: relative;
+  padding-left: 15px;
+}
+
+.footer-section.links ul li::before {
+  content: '›';
+  position: absolute;
+  left: 0;
+  color: #add8e6;
+  transition: transform 0.3s ease;
+}
+
+.footer-section.links ul li:hover::before {
+  transform: translateX(3px);
+}
+
+.footer-section.links ul li a {
+  color: #b3b3b3;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+  position: relative;
+  padding: 2px 0;
+}
+
+.footer-section.links ul li a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #add8e6;
+  transition: width 0.3s ease;
+}
+
+.footer-section.links ul li a:hover {
+  color: #add8e6;
+  text-decoration: none;
+}
+
+.footer-section.links ul li a:hover::after {
+  width: 100%;
+}
+
+.footer-section.links ul li a:visited {
+  color: #b3b3b3;
+}
+
+.footer-section.links ul li a:active {
+  color: #add8e6;
+}
+
+.footer-section.contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section.contact ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  color: #b3b3b3;
+  transition: all 0.3s ease;
+}
+
+.footer-section.contact ul li:hover {
+  color: #add8e6;
+  transform: translateX(5px);
+}
+
+.contact-icon {
+  margin-right: 10px;
+  font-size: 1.2rem;
+  color: #add8e6;
+  transition: transform 0.3s ease;
+}
+
+.footer-section.contact ul li:hover .contact-icon {
+  transform: scale(1.1);
+}
+
+.footer-bottom {
+  background-color: #111111;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #b3b3b3;
+}
+
+/* Dark mode support */
+.dark-mode .footer {
+  background-color: #0a0a0a;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.dark-mode .footer-section h3 {
+  color: #add8e6;
+}
+
+.dark-mode .social-link {
+  color: #b3b3b3;
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.dark-mode .social-link:hover {
+  color: #add8e6;
+  background-color: rgba(173, 216, 230, 0.15);
+}
+
+.dark-mode .footer-section.links ul li a {
+  color: #b3b3b3;
+}
+
+.dark-mode .footer-section.links ul li a:hover {
+  color: #add8e6;
+}
+
+.dark-mode .footer-bottom {
+  background-color: #000000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-section {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .footer-section h3::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+
+  .footer-section.contact ul li {
+    justify-content: center;
+  }
+
+  .footer-section.links ul li {
+    padding-left: 0;
+  }
+
+  .footer-section.links ul li::before {
+    display: none;
+  }
+} 

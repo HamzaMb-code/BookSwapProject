@@ -1,0 +1,195 @@
+/* Home.css - Enhanced styles for BookSwap homepage */
+
+/* General styles */
+.homepage {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .text-primary {
+    color: #8c6d46 !important;
+  }
+  
+  .btn-primary {
+    background-color: #8c6d46;
+    border-color: #8c6d46;
+  }
+  
+  .btn-primary:hover {
+    background-color: #735838;
+    border-color: #735838;
+  }
+  
+  .btn-outline-primary {
+    color: #8c6d46;
+    border-color: #8c6d46;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #8c6d46;
+    color: white;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    padding: 60px 0;
+    background-color: #f9f7f4;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero-section h1 {
+    font-weight: 800;
+    color: #333;
+  }
+  
+  .hero-section .lead {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .hero-image {
+    height: 450px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  .hero-swiper-container {
+    position: relative;
+  }
+  
+  .stats {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 20px;
+  }
+  
+  .stat-item h3 {
+    font-weight: 700;
+    color: #8c6d46;
+  }
+  
+  /* How It Works Section */
+  .how-it-works {
+    background-color: #f9f7f4;
+  }
+  
+  .step-icon-wrapper {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgba(140, 109, 70, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .step-number {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #8c6d46;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  /* Popular Books Section */
+  .book-card {
+    transition: transform 0.3s ease;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .book-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .book-cover-wrapper {
+    position: relative;
+  }
+  
+  .book-cover {
+    height: 240px;
+    object-fit: cover;
+  }
+  
+  .book-rating {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  
+  .book-title {
+    font-weight: 600;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .book-author {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Benefits Section */
+  .benefits-section {
+    background-color: #8c6d46;
+  }
+  
+  .benefit-item {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .benefit-item:hover {
+    transform: translateY(-5px);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Testimonials Section */
+  .testimonial-card {
+    border-radius: 12px;
+    height: 100%;
+  }
+  
+  .testimonial-avatar {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+  }
+  
+  .testimonial-quote {
+    font-style: italic;
+    color: #555;
+  }
+  
+  /* CTA Section */
+  .cta-section {
+    background-color: #f9f7f4;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .hero-section {
+      text-align: center;
+    }
+    
+    .stats {
+      justify-content: center;
+    }
+    
+    .hero-image {
+      height: 350px;
+      margin-top: 30px;
+    }
+  }

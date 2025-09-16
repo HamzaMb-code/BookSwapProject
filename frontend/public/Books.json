@@ -1,0 +1,655 @@
+{
+  "Books": [
+    {
+      "id": 1,
+      "title": "Educated",
+      "author": "Tara Westover",
+      "description": {
+        "en": "A story of a girl who grew up in a strict environment without formal education, then attended prestigious universities.",
+        "ar": "قصة فتاة نشأت في بيئة متطرفة دون تعليم رسمي، ثم التحقت بأفضل الجامعات."
+      },
+      "condition": "used",
+      "category": "Memoir",
+      "image": "https://example.com/images/educated.jpg",
+      "student_id": 101
+    },
+    {
+      "id": 2,
+      "title": "Becoming",
+      "author": "Michelle Obama",
+      "description": {
+        "en": "The journey of the former First Lady from her childhood to the White House.",
+        "ar": "رحلة السيدة الأولى السابقة من طفولتها إلى البيت الأبيض."
+      },
+      "condition": "new",
+      "category": "Memoir",
+      "image": "https://example.com/images/becoming.jpg",
+      "student_id": 102
+    },
+    {
+      "id": 3,
+      "title": "When Breath Becomes Air",
+      "author": "Paul Kalanithi",
+      "description": {
+        "en": "A neurosurgeon's reflection on life and death as he faces cancer himself.",
+        "ar": "طبيب أعصاب يواجه السرطان ويتأمل في معنى الحياة والموت."
+      },
+      "condition": "used",
+      "category": "Memoir",
+      "image": "https://example.com/images/when_breath_becomes_air.jpg",
+      "student_id": 103
+    },
+    {
+      "id": 4,
+      "title": "Born a Crime",
+      "author": "Trevor Noah",
+      "description": {
+        "en": "The comedian's story of growing up in South Africa during apartheid.",
+        "ar": "قصة الكوميدي الشهير في جنوب إفريقيا خلال نظام الفصل العنصري."
+      },
+      "condition": "new",
+      "category": "Memoir",
+      "image": "https://example.com/images/born_a_crime.jpg",
+      "student_id": 104
+    },
+    {
+      "id": 5,
+      "title": "The Glass Castle",
+      "author": "Jeannette Walls",
+      "description": {
+        "en": "A childhood filled with challenges in the care of unconventional parents.",
+        "ar": "طفولة مليئة بالتحديات في ظل أبوين غير تقليديين."
+      },
+      "condition": "used",
+      "category": "Memoir",
+      "image": "https://example.com/images/glass_castle.jpg",
+      "student_id": 105
+    },
+    {
+      "id": 6,
+      "title": "I Am Malala",
+      "author": "Malala Yousafzai",
+      "description": {
+        "en": "The story of the Pakistani girl who fought for girls' education and survived an assassination attempt.",
+        "ar": "قصة الفتاة الباكستانية التي ناضلت من أجل تعليم البنات ونجت من محاولة اغتيال."
+      },
+      "condition": "new",
+      "category": "Memoir",
+      "image": "https://example.com/images/i_am_malala.jpg",
+      "student_id": 106
+    },
+    {
+      "id": 7,
+      "title": "Wild",
+      "author": "Cheryl Strayed",
+      "description": {
+        "en": "A woman's journey through nature to reclaim herself after personal losses.",
+        "ar": "رحلة امرأة عبر الطبيعة لتستعيد ذاتها بعد خسائر شخصية كبيرة."
+      },
+      "condition": "used",
+      "category": "Memoir",
+      "image": "https://example.com/images/wild.jpg",
+      "student_id": 107
+    },
+    {
+      "id": 8,
+      "title": "Steve Jobs",
+      "author": "Walter Isaacson",
+      "description": {
+        "en": "The biography of Steve Jobs from an intimate perspective.",
+        "ar": "حياة ستيف جوبز من وجهة نظر مقرّبة جداً."
+      },
+      "condition": "used",
+      "category": "Biography",
+      "image": "https://example.com/images/steve_jobs.jpg",
+      "student_id": 108
+    },
+    {
+      "id": 9,
+      "title": "The Diary of a Young Girl",
+      "author": "Anne Frank",
+      "description": {
+        "en": "The diary of a Jewish girl during World War II.",
+        "ar": "يوميات فتاة يهودية خلال الحرب العالمية الثانية."
+      },
+      "condition": "used",
+      "category": "Memoir",
+      "image": "https://example.com/images/anne_frank_diary.jpg",
+      "student_id": 109
+    },
+    {
+      "id": 10,
+      "title": "The Autobiography of Malcolm X",
+      "author": "Malcolm X",
+      "description": {
+        "en": "The autobiography of the famous figure who transformed from a life of crime to a human rights advocate.",
+        "ar": "السيرة الذاتية للشخصية الشهيرة التي تحولت من حياة الجريمة إلى داعية حقوق الإنسان."
+      },
+      "condition": "new",
+      "category": "Biography",
+      "image": "https://example.com/images/malcolm_x.jpg",
+      "student_id": 110
+    },
+    {
+      "id": 11,
+      "title": "1984",
+      "author": "George Orwell",
+      "description": {
+        "en": "A dystopian novel about a totalitarian government.",
+        "ar": "رواية ديستوبية عن نظام حكم شمولي."
+      },
+      "condition": "used",
+      "category": "Dystopian",
+      "image": "https://example.com/images/1984.jpg",
+      "student_id": 111
+    },
+    {
+      "id": 12,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "description": {
+        "en": "A speculative novel about a futuristic world governed by technology.",
+        "ar": "رواية خيالية تدور حول عالم مستقبلي يحكمه التكنولوجيا."
+      },
+      "condition": "new",
+      "category": "Dystopian",
+      "image": "https://example.com/images/brave_new_world.jpg",
+      "student_id": 112
+    },
+    {
+      "id": 13,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "description": {
+        "en": "A story about a teenager facing life's challenges and learning.",
+        "ar": "قصة مراهق يواجه تحديات الحياة والتعلم."
+      },
+      "condition": "used",
+      "category": "Classic",
+      "image": "https://example.com/images/catcher_in_the_rye.jpg",
+      "student_id": 113
+    },
+    {
+      "id": 14,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "description": {
+        "en": "A novel about race and justice in the American South.",
+        "ar": "رواية حول العرق والعدالة في الجنوب الأمريكي."
+      },
+      "condition": "new",
+      "category": "Classic",
+      "image": "https://example.com/images/to_kill_a_mockingbird.jpg",
+      "student_id": 114
+    },
+    {
+      "id": 15,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "description": {
+        "en": "A story of love and disappointment in 1920s America.",
+        "ar": "قصة عن الحب والخيبة في الولايات المتحدة الأمريكية في عشرينات القرن العشرين."
+      },
+      "condition": "used",
+      "category": "Classic",
+      "image": "https://example.com/images/great_gatsby.jpg",
+      "student_id": 115
+    },
+
+    {
+      "id": 16,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "description": {
+        "en": "A young man's journey to find his personal legend and treasure.",
+        "ar": "رحلة شاب لاكتشاف مصيره وكنوزه الشخصية."
+      },
+      "condition": "used",
+      "category": "Fiction",
+      "image": "https://example.com/images/the_alchemist.jpg",
+      "student_id": 116
+    },
+    {
+      "id": 17,
+      "title": "The Secret",
+      "author": "Rhonda Byrne",
+      "description": {
+        "en": "A guide to using the law of attraction to create the life you desire.",
+        "ar": "دليل لاستخدام قانون الجذب لخلق الحياة التي ترغب فيها."
+      },
+      "condition": "new",
+      "category": "Self-Help",
+      "image": "https://example.com/images/the_secret.jpg",
+      "student_id": 117
+    },
+    {
+      "id": 18,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "description": {
+        "en": "A practical guide to building good habits and breaking bad ones.",
+        "ar": "دليل عملي لبناء العادات الجيدة وكسر العادات السيئة."
+      },
+      "condition": "used",
+      "category": "Self-Help",
+      "image": "https://example.com/images/atomic_habits.jpg",
+      "student_id": 118
+    },
+    {
+      "id": 19,
+      "title": "The Power of Now",
+      "author": "Eckhart Tolle",
+      "description": {
+        "en": "A spiritual guide to living fully in the present moment.",
+        "ar": "دليل روحي للعيش الكامل في اللحظة الحالية."
+      },
+      "condition": "new",
+      "category": "Self-Help",
+      "image": "https://example.com/images/the_power_of_now.jpg",
+      "student_id": 119
+    },
+    {
+      "id": 20,
+      "title": "Dare to Lead",
+      "author": "Brené Brown",
+      "description": {
+        "en": "A guide to leadership based on courage, vulnerability, and empathy.",
+        "ar": "دليل للقيادة مبني على الشجاعة والضعف والتعاطف."
+      },
+      "condition": "used",
+      "category": "Self-Help",
+      "image": "https://example.com/images/dare_to_lead.jpg",
+      "student_id": 120
+    },
+    {
+      "id": 21,
+      "title": "The Four Agreements",
+      "author": "Don Miguel Ruiz",
+      "description": {
+        "en": "A code of conduct based on ancient Toltec wisdom for achieving personal freedom.",
+        "ar": "رمز للسلوك مبني على حكمة التولتك القديمة لتحقيق الحرية الشخصية."
+      },
+      "condition": "new",
+      "category": "Self-Help",
+      "image": "https://example.com/images/four_agreements.jpg",
+      "student_id": 121
+    },
+    {
+      "id": 22,
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "description": {
+        "en": "A counterintuitive approach to living a better life by focusing on what truly matters.",
+        "ar": "نهج معاكس لما هو معتاد للعيش بشكل أفضل من خلال التركيز على ما يهم حقًا."
+      },
+      "condition": "used",
+      "category": "Self-Help",
+      "image": "https://example.com/images/subtle_art.jpg",
+      "student_id": 122
+    },
+    {
+      "id": 23,
+      "title": "The Book Thief",
+      "author": "Markus Zusak",
+      "description": {
+        "en": "A young girl in Nazi Germany finds solace in stealing books and sharing them with others.",
+        "ar": "فتاة صغيرة في ألمانيا النازية تجد الراحة في سرقة الكتب ومشاركتها مع الآخرين."
+      },
+      "condition": "new",
+      "category": "Historical Fiction",
+      "image": "https://example.com/images/book_thief.jpg",
+      "student_id": 123
+    },
+    {
+      "id": 24,
+      "title": "All the Light We Cannot See",
+      "author": "Anthony Doerr",
+      "description": {
+        "en": "The story of a blind French girl and a German soldier during World War II.",
+        "ar": "قصة فتاة فرنسية عمياء وجندي ألماني خلال الحرب العالمية الثانية."
+      },
+      "condition": "used",
+      "category": "Historical Fiction",
+      "image": "https://example.com/images/light_we_cannot_see.jpg",
+      "student_id": 124
+    },
+    {
+      "id": 25,
+      "title": "The Nightingale",
+      "author": "Kristin Hannah",
+      "description": {
+        "en": "A historical novel about two sisters in Nazi-occupied France during World War II.",
+        "ar": "رواية تاريخية عن شقيقتين في فرنسا المحتلة من قبل النازيين خلال الحرب العالمية الثانية."
+      },
+      "condition": "new",
+      "category": "Historical Fiction",
+      "image": "https://example.com/images/nightingale.jpg",
+      "student_id": 125
+    },
+    {
+      "id": 26,
+      "title": "The Help",
+      "author": "Kathryn Stockett",
+      "description": {
+        "en": "A story about racism and the lives of African American maids in 1960s Mississippi.",
+        "ar": "قصة عن العنصرية وحياة الخادمات الأمريكيات من أصل أفريقي في مسيسيبي في الستينات."
+      },
+      "condition": "used",
+      "category": "Historical Fiction",
+      "image": "https://example.com/images/the_help.jpg",
+      "student_id": 126
+    },
+    {
+      "id": 27,
+      "title": "The Underground Railroad",
+      "author": "Colson Whitehead",
+      "description": {
+        "en": "A historical novel about a runaway slave’s escape on the Underground Railroad.",
+        "ar": "رواية تاريخية عن هروب عبد هارب عبر السكك الحديدية تحت الأرض."
+      },
+      "condition": "new",
+      "category": "Historical Fiction",
+      "image": "https://example.com/images/underground_railroad.jpg",
+      "student_id": 127
+    },
+    {
+      "id": 28,
+      "title": "A Tale of Two Cities",
+      "author": "Charles Dickens",
+      "description": {
+        "en": "A novel set in Paris and London before and during the French Revolution.",
+        "ar": "رواية تقع أحداثها في باريس ولندن قبل وأثناء الثورة الفرنسية."
+      },
+      "condition": "used",
+      "category": "Classic",
+      "image": "https://example.com/images/tale_of_two_cities.jpg",
+      "student_id": 128
+    },
+    {
+      "id": 29,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "description": {
+        "en": "A classic novel about love, marriage, and social expectations in early 19th-century England.",
+        "ar": "رواية كلاسيكية عن الحب والزواج والتوقعات الاجتماعية في إنجلترا في أوائل القرن التاسع عشر."
+      },
+      "condition": "new",
+      "category": "Classic",
+      "image": "https://example.com/images/pride_and_prejudice.jpg",
+      "student_id": 129
+    },
+    {
+      "id": 30,
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "description": {
+        "en": "A novel about a scientist who creates a monster and deals with the consequences.",
+        "ar": "رواية عن عالم يخلق وحشًا ويتعامل مع العواقب."
+      },
+      "condition": "used",
+      "category": "Classic",
+      "image": "https://example.com/images/frankenstein.jpg",
+      "student_id": 130
+    },
+    {
+      "id": 31,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "description": {
+        "en": "A fantasy novel about the adventures of Bilbo Baggins in Middle-earth.",
+        "ar": "رواية فانتازيا عن مغامرات بيلبو باجينز في أرض الوسط."
+      },
+      "condition": "used",
+      "category": "Fantasy",
+      "image": "https://example.com/images/the_hobbit.jpg",
+      "student_id": 131
+    },
+    {
+      "id": 32,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "description": {
+        "en": "The first book in the Harry Potter series about a young wizard's journey in the magical world.",
+        "ar": "الكتاب الأول في سلسلة هاري بوتر عن رحلة ساحر شاب في العالم السحري."
+      },
+      "condition": "new",
+      "category": "Fantasy",
+      "image": "https://example.com/images/harry_potter_and_the_sorcerers_stone.jpg",
+      "student_id": 132
+    },
+    {
+      "id": 33,
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "author": "J.R.R. Tolkien",
+      "description": {
+        "en": "The first part of Tolkien's epic fantasy saga set in Middle-earth.",
+        "ar": "الجزء الأول من ملحمة الفانتازيا الشهيرة التي كتبها تولكين في أرض الوسط."
+      },
+      "condition": "used",
+      "category": "Fantasy",
+      "image": "https://example.com/images/fellowship_of_the_ring.jpg",
+      "student_id": 133
+    },
+    {
+      "id": 34,
+      "title": "The Chronicles of Narnia: The Lion, the Witch, and the Wardrobe",
+      "author": "C.S. Lewis",
+      "description": {
+        "en": "The first book in the Narnia series about four children who discover a magical world.",
+        "ar": "الكتاب الأول في سلسلة نارنيا عن أربعة أطفال يكتشفون عالماً سحرياً."
+      },
+      "condition": "new",
+      "category": "Fantasy",
+      "image": "https://example.com/images/lion_witch_wardrobe.jpg",
+      "student_id": 134
+    },
+    {
+      "id": 35,
+      "title": "Percy Jackson & The Olympians: The Lightning Thief",
+      "author": "Rick Riordan",
+      "description": {
+        "en": "A modern adventure about a boy who discovers he is the son of a Greek god.",
+        "ar": "مغامرة معاصرة عن فتى يكتشف أنه ابن إله يوناني."
+      },
+      "condition": "used",
+      "category": "Fantasy",
+      "image": "https://example.com/images/percy_jackson_lightning_thief.jpg",
+      "student_id": 135
+    },
+    {
+      "id": 36,
+      "title": "The Night Circus",
+      "author": "Erin Morgenstern",
+      "description": {
+        "en": "A magical story about a mysterious circus that opens only at night.",
+        "ar": "قصة سحرية عن سيرك غامض يفتح فقط في الليل."
+      },
+      "condition": "new",
+      "category": "Fantasy",
+      "image": "https://example.com/images/night_circus.jpg",
+      "student_id": 136
+    },
+    {
+      "id": 37,
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "description": {
+        "en": "A dystopian novel set in a future where children are forced to participate in deadly games.",
+        "ar": "رواية ديستوبية تقع في المستقبل حيث يُجبر الأطفال على المشاركة في ألعاب قاتلة."
+      },
+      "condition": "used",
+      "category": "Dystopian",
+      "image": "https://example.com/images/hunger_games.jpg",
+      "student_id": 137
+    },
+    {
+      "id": 38,
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "description": {
+        "en": "A classic novel about a society where books are banned and burned.",
+        "ar": "رواية كلاسيكية عن مجتمع يُمنع فيه الكتب ويتم حرقها."
+      },
+      "condition": "new",
+      "category": "Dystopian",
+      "image": "https://example.com/images/fahrenheit_451.jpg",
+      "student_id": 138
+    },
+    {
+      "id": 39,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "description": {
+        "en": "A society controlled by technology and engineered happiness.",
+        "ar": "مجتمع يتحكم فيه التكنولوجيا والسعادة المهندسة."
+      },
+      "condition": "used",
+      "category": "Dystopian",
+      "image": "https://example.com/images/brave_new_world.jpg",
+      "student_id": 139
+    },
+    {
+      "id": 40,
+      "title": "The Giver",
+      "author": "Lois Lowry",
+      "description": {
+        "en": "A young boy is selected to receive memories of a time before his society was controlled.",
+        "ar": "يتم اختيار فتى لتلقي ذكريات عن زمن قبل أن يصبح مجتمعه تحت السيطرة."
+      },
+      "condition": "new",
+      "category": "Dystopian",
+      "image": "https://example.com/images/the_giver.jpg",
+      "student_id": 140
+    },
+    {
+      "id": 41,
+      "title": "The Outsiders",
+      "author": "S.E. Hinton",
+      "description": {
+        "en": "A story about the conflicts between two groups of teenagers in a small American town.",
+        "ar": "قصة عن النزاعات بين مجموعتين من المراهقين في مدينة أمريكية صغيرة."
+      },
+      "condition": "used",
+      "category": "Classic",
+      "image": "https://example.com/images/the_outsiders.jpg",
+      "student_id": 141
+    },
+    {
+      "id": 42,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "description": {
+        "en": "A young man's journey through New York City and his search for meaning in life.",
+        "ar": "رحلة شاب عبر مدينة نيويورك بحثًا عن معنى الحياة."
+      },
+      "condition": "new",
+      "category": "Classic",
+      "image": "https://example.com/images/catcher_in_the_rye.jpg",
+      "student_id": 142
+    },
+    {
+      "id": 43,
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "description": {
+        "en": "The story of Captain Ahab's obsessive quest to kill the white whale, Moby Dick.",
+        "ar": "قصة رحلة الكابتن آهاب المهووسة لقتل الحوت الأبيض، موبي ديك."
+      },
+      "condition": "used",
+      "category": "Classic",
+      "image": "https://example.com/images/moby_dick.jpg",
+      "student_id": 143
+    },
+    {
+      "id": 44,
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "description": {
+        "en": "A story of passion, revenge, and obsession set in the Yorkshire moors.",
+        "ar": "قصة عن العاطفة والانتقام والهوس تقع في مستنقعات يوركشاير."
+      },
+      "condition": "new",
+      "category": "Classic",
+      "image": "https://example.com/images/wuthering_heights.jpg",
+      "student_id": 144
+    },
+    {
+      "id": 45,
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "description": {
+        "en": "A gothic horror novel about the legendary vampire Count Dracula.",
+        "ar": "رواية رعب قوطية عن مصاص الدماء الأسطوري الكونت دراكولا."
+      },
+      "condition": "used",
+      "category": "Classic",
+      "image": "https://example.com/images/dracula.jpg",
+      "student_id": 145
+    },
+    {
+      "id": 46,
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "description": {
+        "en": "A novel about a man whose portrait ages while he remains young, exploring vanity and corruption.",
+        "ar": "رواية عن رجل صورتها الشيخوخة بينما يبقى هو شابًا، وتستكشف الغرور والفساد."
+      },
+      "condition": "new",
+      "category": "Classic",
+      "image": "https://example.com/images/dorian_gray.jpg",
+      "student_id": 146
+    },
+    {
+      "id": 47,
+      "title": "Les Misérables",
+      "author": "Victor Hugo",
+      "description": {
+        "en": "A historical novel set during the French Revolution, exploring themes of justice and redemption.",
+        "ar": "رواية تاريخية تدور أحداثها خلال الثورة الفرنسية، وتستكشف قضايا العدالة والفداء."
+      },
+      "condition": "used",
+      "category": "Classic",
+      "image": "https://example.com/images/les_miserables.jpg",
+      "student_id": 147
+    },
+    {
+      "id": 48,
+      "title": "The Scarlet Letter",
+      "author": "Nathaniel Hawthorne",
+      "description": {
+        "en": "A tale of sin, guilt, and redemption set in Puritan New England.",
+        "ar": "قصة عن الخطيئة والشعور بالذنب والفداء تقع في نيو إنجلاند المتطرفة."
+      },
+      "condition": "new",
+      "category": "Classic",
+      "image": "https://example.com/images/scarlet_letter.jpg",
+      "student_id": 148
+    },
+    {
+      "id": 49,
+      "title": "The Odyssey",
+      "author": "Homer",
+      "description": {
+        "en": "An ancient Greek epic about the adventures of Odysseus on his journey home from the Trojan War.",
+        "ar": "ملحمة يونانية قديمة عن مغامرات أوديسيوس في رحلته إلى الوطن بعد حرب طروادة."
+      },
+      "condition": "used",
+      "category": "Classic",
+      "image": "https://example.com/images/odyssey.jpg",
+      "student_id": 149
+    },
+    {
+      "id": 50,
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "description": {
+        "en": "An epic poem about the journey through Hell, Purgatory, and Paradise.",
+        "ar": "قصيدة ملحمية عن الرحلة عبر الجحيم والمطهر والجنة."
+      },
+      "condition": "new",
+      "category": "Classic",
+      "image": "https://example.com/images/divine_comedy.jpg",
+      "student_id": 150
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+
+
+body.bg-light {
+    background: linear-gradient(135deg, #dbe6f6, #c5796d);
+  }
+  
+  .card {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.8);
+  }
+  
